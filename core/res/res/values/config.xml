@@ -512,6 +512,9 @@
     <!-- Operating volatage for wifi radio. 0 by default-->
     <integer translatable="false" name="config_wifi_operating_voltage_mv">0</integer>
 
+    <!-- Wifi framework supports ECBM mode  -->
+    <bool translatable="false" name="config_wifi_ecbm_mode_change">true</bool>
+
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">false</bool>
@@ -2323,6 +2326,10 @@
     <!-- Activity scroll boost params -->
     <integer name="ascrollboost_timeout">0</integer>
     <integer-array name="ascrollboost_param_value"/>
+
+    <!-- cpu boost for PanelView fling -->
+    <bool name="config_enableCpuBoostForPanelViewFling">false</bool>
+    <integer-array name="panelview_flingboost_param_value" />
 
    <!-- Configuration to play sms ringtone during MO/MT call -->
    <bool name="config_sms_ringtone_incall">false</bool>

@@ -292,6 +292,7 @@
   <java-symbol type="bool" name="config_useFixedVolume" />
   <java-symbol type="bool" name="config_forceDefaultOrientation" />
   <java-symbol type="bool" name="config_wifi_batched_scan_supported" />
+  <java-symbol type="bool" name="config_wifi_ecbm_mode_change" />
   <java-symbol type="bool" name="config_enableMultiUserUI"/>
   <java-symbol type="bool" name="config_disableUsbPermissionDialogs"/>
   <java-symbol type="bool" name="config_hasRecents" />
@@ -1101,6 +1102,7 @@
   <java-symbol type="string" name="lockscreen_transport_pause_description" />
   <java-symbol type="string" name="config_ethernet_tcp_buffers" />
   <java-symbol type="string" name="config_wifi_tcp_buffers" />
+  <java-symbol type="string" name="high_definition_tag" />
 
   <java-symbol type="plurals" name="duration_hours" />
   <java-symbol type="plurals" name="duration_minutes" />
@@ -2371,6 +2373,10 @@
   <!-- Activity scroll boost params -->
   <java-symbol type="integer" name="ascrollboost_timeout" />
   <java-symbol type="array" name="ascrollboost_param_value" />
+
+  <!-- cpu boost for PanelView fling -->
+  <java-symbol type="bool" name="config_enableCpuBoostForPanelViewFling" />
+  <java-symbol type="array" name="panelview_flingboost_param_value" />
 
   <!-- for wifi auto connection -->
   <java-symbol type="bool" name="wifi_autocon" />
